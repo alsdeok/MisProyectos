@@ -1,0 +1,42 @@
+.DivSearchbar{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color:grey ;
+    align-items: center;
+    border-radius: 10px;
+    border-top-left-radius: 0% ;
+    border-top-right-radius: 0%;
+    border: solid black;
+    gap: 5px;
+    margin-top: 2px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.input{
+    border: solid black;
+    border-radius: 5px;
+    width: 50%;
+
+}
+
+.boton{
+    width: 100px;
+    font-size: 20px;
+    background-color: transparent;
+    border: dotted ;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.boton:hover{
+    background-color: rgb(255, 255, 255);
+    font-style: italic;
+    width: 100px;
+    height: 31px;
+}
