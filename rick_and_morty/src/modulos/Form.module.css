@@ -1,0 +1,53 @@
+.divForm {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    margin: auto;
+    width: 20%;
+    height: 25rem;
+    padding-top: 1rem;
+    margin-top: 3rem;
+    padding-bottom: 1%;
+    box-shadow: 1px 2px 2px;
+    border-radius: 5%;
+
+
+}
+.divImagen{
+    padding-top: 2rem;
+    width: 100%;
+    border-radius: 50%;
+    background-color: rgb(37, 37, 109);
+}
+
+.img {
+    width: 100%;
+    border-radius: 40%;
+    margin-bottom: 2rem;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 80%;
+    margin:auto;
+    align-items: flex-start;
+}
+.input{
+    width: 100%;
+}
+
+.submit {
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgb(162, 190, 57);
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 1px 2px 2px;
+    border: none;
+}
+.submit:hover {
+    background-color: rgb(84, 139, 84);
+    cursor: pointer
+}
