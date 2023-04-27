@@ -1,31 +1,94 @@
 .DivCard{
+    position: relative;
+    margin-top: 7%;
     width: 25%;
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(172, 94, 31, 0.5));
+    background-image: linear-gradient(rgba(41, 119, 64, 0.5), rgba(0, 0, 0, 0.829));
     border: black solid;
     border-radius: 20px;
     box-shadow: -10px 5px 20px 2px rgb(77, 26, 26);
-    padding: 10px;
-    margin-top: 70px;
-    margin-bottom: 5px;
+    overflow: hidden;
+
+
 }
 
 .image{
-    object-fit: cover;
     width:100%;
     height:100%;
-    margin: 1px;
+    border-radius: 5%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+}
+.image:hover{
+    
+    transform: scale(1.2);
 }
 
+
+
+
+
+span{
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
 .boton{
     background-color: transparent;
-    border: transparent;
-    font-size: 25px;
-    padding: 0%;
-    margin: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+    -webkit-text-stroke: 1px black;
+    cursor: pointer;
+    color: rgb(192, 192, 192);
+    margin-left: 85%;
+    margin-top: -2%;
+    position: absolute;
+    z-index: 1
+}
+.boton:hover{
+    color: red;
+    transition-property: color font-size ;
+    transition-duration: .3s;
 }
 
-.boton:hover{
-    box-shadow: 5px 5px 5px rgb(77, 26, 26);
 
-    font-style: italic;
+.span{
+    background-color: transparent;
+    border: transparent;
+    font-size: 250%;
+    cursor: pointer;
+    color: rgb(141, 137, 137);
+    margin-left: 3%;
+    margin-top: -5%;
+    position: absolute;
+    -webkit-text-stroke: .7px black;
+    z-index: 1;
+    transition-property: color font-size ;
+    transition-duration: .3s;
+}
+.spanRed{
+    background-color: transparent;
+    border: transparent;
+    transition-property: color font-size ;
+    transition-duration: .3s;
+    font-size: 250%;
+    cursor: pointer;
+    -webkit-text-stroke: .7px black;
+    color: rgb(255, 0, 0);
+    margin-left: 3%;
+    margin-top: -5%;
+    position: absolute;
+    z-index: 1;
+
+}
+.span:hover{
+    color: rgb(206, 6, 6);
+    font-size: 300%;
+    transition-property: color font-size ;
+    transition-duration: .3s;
+}
+.spanRed:hover{
+    font-size: 300%;
+    transition-property: color font-size ;
+    transition-duration: .3s;
 }

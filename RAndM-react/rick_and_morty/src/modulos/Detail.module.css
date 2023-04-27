@@ -1,0 +1,83 @@
+
+.divPadre {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 9rem;
+    gap: 10%;
+    animation: aparecer ease-in-out .5s;
+    background-color: rgb(0, 0, 0);
+
+}
+@keyframes desaparecer {
+    0%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}
+.divPadreOut{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 9rem;
+    gap: 10%;
+    animation: desaparecer 0.5s ease-out;
+}
+.divHijo{
+    background-color: rgba(59, 99, 59, 0.733);
+    width: 50%;
+    color: rgb(227, 231, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    text-shadow: 7px 2px 2px rgb(29, 99, 29);
+    border-right: solid 2px beige;
+}
+
+.divHijo > div {
+    width: 80%;
+    height: 80%;
+}
+
+.imagen{
+    margin-left: 65%;
+    border-radius: 50%;
+    width:70%;
+    position: inherit;
+    border: solid green 1px;
+}
+.divImagen{
+    margin: auto;
+    width: 50%;
+    margin-top: 10%;
+    position: relative;
+    
+}
+
+h1{
+    font-size: 300%;
+}
+
+hr{
+    width: 10%;
+}
+
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
